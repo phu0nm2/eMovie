@@ -1,0 +1,19 @@
+.datePicker {
+    margin-bottom: 20px !important;
+    
+    .MuiInput-root {
+        color: #fff;
+
+        &::before {
+            border-color: #fff;
+
+            &:hover {
+                border-color: #fff;
+            }
+        }
+
+        .MuiIconButton-root {
+            color: #fff;
+        }
+    }
+}

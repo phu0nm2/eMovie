@@ -1,0 +1,93 @@
+.movie--item {
+  border-bottom: 10px solid #131720;
+}
+
+.movie--item td {
+  padding: 0;
+  background-color: transparent;
+  border: 0px solid transparent;
+}
+
+.movie--item td:first-child .movie--item__text {
+  border-radius: 16px 0 0 16px;
+}
+
+.movie--item td td:last-child .movie--item__text {
+  border-radius: 0 16px 16px 0;
+}
+
+.movie--item__text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 20px;
+  background-color: #151f30;
+  white-space: nowrap;
+}
+
+.movie--item__text:first-child {
+  justify-content: center;
+}
+
+.movie--item__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #151f30;
+  white-space: nowrap;
+  padding: 3px 0;
+}
+
+.movie--item__btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #151f30;
+  border-radius: 0 16px 16px 0;
+}
+
+.movie--item__btns .movie--item__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.movie--item__btns .movie--item__btn svg {
+  width: 20px;
+  height: auto;
+  pointer-events: none;
+}
+
+.movie--item__btns--edit {
+  background-color: rgba(47, 128, 237, 0.1);
+}
+
+.movie--item__btns--edit svg {
+  fill: #2f80ed;
+}
+
+.movie--item__btns--delete.ant-btn {
+  background-color: rgba(235, 87, 87, 0.1) !important;
+  margin-right: 0 !important;
+  border: none !important;
+}
+
+.movie--item__btns--delete.ant-btn svg {
+  fill: #eb5757;
+}
+/*# sourceMappingURL=style.css.map */

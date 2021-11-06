@@ -1,0 +1,43 @@
+.menu-home-items {
+  .list-movie {
+    padding-left: 24px;
+    .list-movie-item {
+      max-width: 100%;
+      max-height: 150px;
+      padding-bottom: 20px;
+      display: flex;
+      img {
+        padding-right: 10px;
+        width: 100px;
+      }
+      .list-movie-name {
+        padding-right: 10px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #fff;
+      }
+      .address {
+        color: white;
+        font-size: 16px;
+        color: #fff;
+      }
+      .show-times {
+        font-size: 18px;
+        color: #1890ff;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all 0.2s linear;
+        &:hover {
+          // color: rgba(236, 228, 228, 0.925);
+          color: rgba(138, 138, 252, 0.89);
+        }
+      }
+    }
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .cum-rap {
+    div {
+      color: #1890ff;
+    }
+  }
+}

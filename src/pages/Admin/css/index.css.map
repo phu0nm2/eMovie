@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,IAAI;CAcjB;;AAZE,AAAD,kBAAO,CAAC;EACN,SAAS,EAAE,IAAI;EAEf,WAAW,EAAE,KAAK;EAClB,KAAK,EAAE,IAAI;CACZ;;AARH,AAUE,YAVU,CAUV,oBAAoB,GAAG,KAAK,CAAC;EAC3B,KAAK,EAAE,eAAe;CACvB",
+    "sources": [
+        "../AdminUserForm/index.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

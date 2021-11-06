@@ -1,0 +1,100 @@
+.movie--item {
+    border-bottom: 10px solid #131720;
+
+    td {
+        padding: 0;
+        background-color: transparent;
+        border: 0px solid transparent;
+
+        &:first-child .movie--item__text {
+            border-radius: 16px 0 0 16px;
+        }
+
+        td:last-child .movie--item__text {
+            border-radius: 0 16px 16px 0;
+        }
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 14px;
+        color: #fff;
+        font-weight: 400;
+        line-height: 30px;
+        padding: 20px;
+        background-color: #151f30;
+        white-space: nowrap;
+
+        &:first-child {
+            justify-content: center;
+        }
+    }
+
+    &__img {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #151f30;
+        white-space: nowrap;
+        padding: 3px 0;
+    }
+
+    &__btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #151f30;
+        border-radius: 0 16px 16px 0;
+
+        .movie--item__btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 30px;
+            height: 30px;
+            font-size: 16px;
+            color: #fff;
+            border-radius: 10px;
+            margin-right: 10px;
+
+            svg {
+                width: 20px;
+                height: auto;
+                pointer-events: none;
+            }
+        }
+
+        &--edit {
+            background-color: rgba(47, 128, 237, 0.1);
+
+            svg {
+                fill: #2f80ed;
+            }
+        }
+
+        &--showtime {
+            background-color: rgba(255,195,18,0.1);
+
+            svg {
+                fill: #ffc312;
+            }
+        }
+
+        &--delete.ant-btn {
+            background-color: rgba(235, 87, 87, 0.1) !important;
+            margin-right: 0 !important;
+            border: none !important;
+
+            svg {
+                fill: #eb5757;
+            }
+        }
+    }
+}

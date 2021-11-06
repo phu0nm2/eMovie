@@ -1,0 +1,219 @@
+.detail {
+  position: relative;
+  margin-top: 100px;
+  padding-bottom: 80px;
+  padding-top: 160px;
+}
+
+.detail__bg {
+  position: absolute;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 450px;
+}
+
+.detail__bg::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(19, 23, 32, 0.5)), to(#131720));
+  background: linear-gradient(180deg, rgba(19, 23, 32, 0.5) 0%, #131720 100%);
+  pointer-events: none;
+}
+
+.detail__container {
+  position: relative;
+  color: #fff;
+  padding: 0 15px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.detail__container .trailerBtn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+
+.detail__container .trailerBtn:hover {
+  color: #2f80ed;
+}
+
+.detail__container .trailerBtn:hover svg {
+  stroke: #2f80ed;
+}
+
+.detail__container .trailerBtn svg {
+  display: block;
+  stroke: #fff;
+  width: 46px;
+  height: auto;
+  margin-right: 15px;
+  -webkit-transition: stroke 0.5s;
+  transition: stroke 0.5s;
+}
+
+.detail__container .article__content {
+  position: relative;
+}
+
+.detail__container .article__content h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.detail__container .article__content ul.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  margin-top: -20px;
+  margin-bottom: 30px;
+  padding: 0;
+}
+
+.detail__container .article__content ul.list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  color: #e0e0e0;
+  padding: 0 20px;
+}
+
+.detail__container .article__content ul.list li::before {
+  position: absolute;
+  display: block;
+  content: "";
+  left: -2px;
+  top: 50%;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  margin-top: -3px;
+}
+
+.detail__container .article__content p {
+  margin-bottom: 0;
+  display: block;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #e0e0e0;
+}
+
+.detail .order__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px auto;
+  width: 100%;
+  height: 50px;
+  border-radius: 16px;
+  background-color: #2f80ed;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.detail .order__btn button {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #e0e0e0;
+  font-weight: bold;
+}
+
+.detail .order__btn:hover {
+  background-color: #fff;
+}
+
+.detail .order__btn:hover button {
+  color: #151f30;
+}
+
+@media screen and (min-width: 576px) {
+  .detail__container {
+    max-width: 540px;
+  }
+  .order__btn {
+    max-width: 180px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .detail__container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .detail__container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .detail__container {
+    max-width: 1330px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

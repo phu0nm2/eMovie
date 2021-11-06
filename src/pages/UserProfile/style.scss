@@ -1,0 +1,65 @@
+.profile {
+    padding-top: 96px;
+
+    &__header {
+        padding: 0 15px;
+        font-size: 32px;
+        color: #fff;
+    }
+
+    &__container {
+        position: relative;
+        margin: 0 15px;
+        padding: 15px;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #151f30;
+        border-radius: 16px;
+
+        &--user {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .profile__avatar {
+            margin-right: 15px;
+
+            img {
+                border-radius: 10px;
+                width: 100%;
+            }
+        }
+
+        .profile__meta {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            h3 {
+                color: #fff;
+                display: block;
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 7px;
+                line-height: 100%;
+            }
+
+            span {
+                color: #e0e0e0;
+                font-size: 12px;
+                line-height: 100%;
+            }
+        }
+    }
+
+    .ant-tabs-tab-btn {
+        color: #fff;
+    }
+}

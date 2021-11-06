@@ -1,0 +1,23 @@
+.showtime__btn.MuiButton-outlined {
+  border-color: #fff;
+  margin: 10px 8px;
+  width: 100px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+.showtime__btn.MuiButton-outlined a {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  color: #fff;
+  text-decoration: none;
+}
+
+.showtime__btn.MuiButton-outlined:hover {
+  border-color: #1976d2;
+}
+
+.showtime__btn.MuiButton-outlined:hover a {
+  color: #1976d2;
+}
+/*# sourceMappingURL=style.css.map */

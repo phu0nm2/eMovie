@@ -1,0 +1,14 @@
+.user_groups {
+  margin-top: 70px;
+}
+
+.user_groups-title {
+  font-size: 36px;
+  margin-left: 300px;
+  color: #fff;
+}
+
+.user_groups .ant-form-item-label > label {
+  color: #fff !important;
+}
+/*# sourceMappingURL=index.css.map */

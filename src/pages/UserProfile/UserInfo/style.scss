@@ -1,0 +1,73 @@
+.profile__container--info {
+    .edit--user__form {
+        width: 100%;
+        background-color: #131720;
+        border-radius: 16px;
+        padding: 30px 20px;
+        border: 1px solid #151f30;
+
+        .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+            display: none;
+        }
+
+        .ant-form-item-required {
+            font-weight: 400;
+            font-size: 14px;
+            color: #e0e0e0;
+            margin-bottom: 5px;
+        }
+
+        .edit--user__input {
+            background-color: #151f30;
+            border: 1px solid transparent;
+            border-radius: 16px;
+            height: 44px;
+            color: #fff;
+            font-size: 14px;
+            width: 100%;
+            padding: 0 20px;
+
+            .ant-input {
+                background-color: #151f30;
+                color: #fff;
+            }
+
+            .ant-input-password-icon {
+                color: #fff;
+            }
+
+            &:hover {
+                border: 1px solid transparent;
+            }
+        }
+
+        .ant-form-item-with-help {
+            margin-bottom: 10px;
+        }
+
+        .ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+        .ant-form-item-has-error
+            :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper {
+            background-color: #151f30;
+            color: #fff;
+        }
+
+        .edit--user__btn.ant-btn {
+            margin: 15px auto;
+            width: 100%;
+            height: 50px;
+            border-radius: 16px;
+            background-color: #2f80ed;
+            font-size: 14px;
+            color: #e0e0e0;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: all 0.3s;
+    
+            &:hover {
+                background-color: #fff;
+                color: #000;
+            }
+        }
+    }
+}

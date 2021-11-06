@@ -1,0 +1,21 @@
+.theater__item {
+    margin: 10px 0;
+
+    &--title {
+        margin-bottom: 10px;
+    }
+
+    &--info {
+        margin-bottom: 10px;
+
+        img {
+            width: 100%;
+            border-radius: 16px;
+        }
+    }
+
+    &--divider {
+        margin: 20px 0 !important;
+        border-color: #ccc !important;
+    }
+}

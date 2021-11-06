@@ -1,0 +1,52 @@
+.ticketroom {
+  padding-top: 100px;
+  line-height: 50px;
+
+  &__left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+
+    padding-top: 24px;
+
+    &_infoSeat {
+      display: flex;
+
+      &-a {
+        width: 45px;
+        height: 40px;
+        margin-right: 16px;
+      }
+    }
+    &-title {
+      font-size: 36px;
+      text-align: center;
+    }
+
+    &-times {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-cinema {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-chair {
+      &-table {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+    &-total {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-btn {
+      padding-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

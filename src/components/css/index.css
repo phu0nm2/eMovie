@@ -1,0 +1,11 @@
+.seat-btn {
+  width: 50px;
+  margin: 10px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.seat-btn-disabled:hover {
+  cursor: not-allowed;
+}
+/*# sourceMappingURL=index.css.map */

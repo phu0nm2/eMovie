@@ -1,0 +1,224 @@
+.add-showtime__container {
+    position: relative;
+    margin-top: 70px;
+    padding: 20px 0 0;
+}
+
+.add-showtime {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    &__title {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        border-bottom: 1px solid rgba(47, 128, 237, 0.1);
+        padding-bottom: 20px;
+
+        h2 {
+            font-weight: 400;
+            color: #fff;
+            font-size: 28px;
+            line-height: 100%;
+            margin-bottom: 0;
+        }
+    }
+
+    &__form.ant-form {
+        background-color: #131720;
+        padding: 20px;
+        border-radius: 16px;
+        margin-bottom: 30px;
+        border: 1px solid rgba(47, 128, 237, 0.1);
+
+        .form-img {
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+            background-color: #151f30;
+            margin-bottom: 20px;
+            border-radius: 16px;
+            padding: 0 10px;
+            border: none;
+        }
+
+        .ant-form-item-label {
+            display: none;
+        }
+
+        .form-movieName {
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+            margin-bottom: 30px;
+        }
+
+        .form--group {
+            position: relative;
+            margin-bottom: 20px;
+            width: 100%;
+
+            .ant-cascader-picker,
+            .ant-select-selector,
+            .ant-input-number,
+            .ant-input {
+                background-color: #151f30;
+                border: 1px solid transparent;
+                border-radius: 16px;
+                height: 44px;
+                position: relative;
+                color: #fff;
+                font-size: 14px;
+                width: 100%;
+                padding: 0 20px;
+
+                &.ant-cascader-picker {
+                    padding: 0;
+                }
+
+                .ant-cascader-picker-label {
+                    padding: 0 20px;
+                }
+            }
+
+            &.ant-form-item-has-error .ant-input-number,
+            &.ant-form-item-has-error .ant-picker,
+            &.ant-form-item-has-error
+                .ant-select:not(.ant-select-disabled):not(.ant-select-customize-input)
+                .ant-select-selector,
+            &.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input,
+            &.ant-form-item-has-error
+                :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper,
+            &.ant-form-item-has-error :not(.ant-input-disabled):not(.ant-input-borderless).ant-input:hover,
+            &.ant-form-item-has-error
+                :not(.ant-input-affix-wrapper-disabled):not(.ant-input-affix-wrapper-borderless).ant-input-affix-wrapper:hover,
+            &.ant-form-item-has-error .ant-input-number:not([disabled]):hover,
+            &.ant-form-item-has-error .ant-picker:not([disabled]):hover {
+                background: #151f30;
+                border-color: #ff4d4f;
+            }
+
+            .ant-input-number-handler-wrap {
+                display: none;
+            }
+
+            .ant-input-number-input {
+                padding: 0;
+                height: 44px;
+            }
+
+            .ant-select-single .ant-select-selector .ant-select-selection-item,
+            .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+                line-height: 42px;
+            }
+
+            .select--item.ant-select-selector {
+                color: #fff;
+                background: #131720;
+
+                &:hover {
+                    background: #151f30;
+                }
+            }
+
+            .ant-cascader-picker-arrow,
+            .ant-select-arrow {
+                right: 22px;
+
+                svg {
+                    fill: #40a9ff;
+                }
+            }
+        }
+
+        .ant-picker {
+            background-color: #151f30;
+            border: 1px solid transparent;
+            border-radius: 16px;
+            height: 44px;
+            position: relative;
+            color: #fff;
+            font-size: 14px;
+            width: 100%;
+            padding: 0 20px;
+
+            .anticon-calendar svg {
+                fill: #1890ff;
+            }
+
+            .ant-picker-input input {
+                color: #fff;
+            }
+        }
+
+        .ant-input-number .anticon-up svg,
+        .ant-input-number .anticon-down svg {
+            fill: #1890ff;
+        }
+    }
+
+    .ant-btn.ant-btn-primary {
+        width: 100%;
+        height: 44px;
+        border-radius: 16px;
+        text-transform: uppercase;
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+.ant-select-dropdown.ant-select-dropdown-placement-bottomLeft,
+.ant-cascader-menus.ant-cascader-menus-placement-bottomLeft {
+    background: #151f30;
+
+    .ant-select-item-option-active:not(.ant-select-item-option-disabled),
+    .ant-select-item-option-selected:not(.ant-select-item-option-disabled),
+    .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+    .ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled):hover {
+        font-weight: 600;
+        background-color: #1890ff;
+        color: #fff;
+    }
+
+    .ant-select-item.ant-select-item-option,
+    .ant-cascader-menu-item,
+    .ant-cascader-menu-item.ant-cascader-menu-item-expand {
+        color: #fff;
+
+        &:hover {
+            background: #1890ff;
+        }
+    }
+
+    .ant-empty-description {
+        color: #fff;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .add-showtime__container {
+        padding: 0 15px 30px 295px;
+        margin-top: 0;
+
+        .add-showtime__title {
+            padding-bottom: 0;
+            height: 80px;
+        }
+    }
+
+    .image--cover.ant-col-md-10 {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .content--cover.ant-col-md-14 {
+        flex: 0 0 calc(100% - 300px);
+        max-width: 100%;
+    }
+}

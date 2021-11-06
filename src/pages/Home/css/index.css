@@ -1,0 +1,45 @@
+.menu-home-items .list-movie {
+  padding-left: 24px;
+}
+
+.menu-home-items .list-movie .list-movie-item {
+  max-width: 100%;
+  max-height: 150px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.menu-home-items .list-movie .list-movie-item img {
+  padding-right: 10px;
+  width: 100px;
+}
+
+.menu-home-items .list-movie .list-movie-item .list-movie-name {
+  padding-right: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+.menu-home-items .list-movie .list-movie-item .address {
+  color: white;
+  font-size: 16px;
+  color: #fff;
+}
+
+.menu-home-items .list-movie .list-movie-item .show-times {
+  font-size: 18px;
+  color: #1890ff;
+  font-weight: 400;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.menu-home-items .list-movie .list-movie-item .show-times:hover {
+  color: rgba(138, 138, 252, 0.89);
+}
+
+.menu-home-items .ant-tabs-tab.ant-tabs-tab-active .cum-rap div {
+  color: #1890ff;
+}
+/*# sourceMappingURL=index.css.map */

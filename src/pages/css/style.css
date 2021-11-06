@@ -1,0 +1,66 @@
+.profile {
+  padding-top: 96px;
+}
+
+.profile__header {
+  padding: 0 15px;
+  font-size: 32px;
+  color: #fff;
+}
+
+.profile__container {
+  position: relative;
+  margin: 0 15px;
+  padding: 15px;
+  padding-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #151f30;
+  border-radius: 16px;
+}
+
+.profile__container--user {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile__container .profile__avatar {
+  margin-right: 15px;
+}
+
+.profile__container .profile__avatar img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.profile__container .profile__meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.profile__container .profile__meta h3 {
+  color: #fff;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  line-height: 100%;
+}
+
+.profile__container .profile__meta span {
+  color: #e0e0e0;
+  font-size: 12px;
+  line-height: 100%;
+}
+
+.profile .ant-tabs-tab-btn {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

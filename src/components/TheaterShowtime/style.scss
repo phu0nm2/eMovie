@@ -1,0 +1,19 @@
+.showtime__btn.MuiButton-outlined {
+    border-color: #fff;
+    margin: 10px 8px;
+    width: 100px;
+    transition: all .2s;
+    
+    a {
+        transition: all .2s;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &:hover {
+        a {
+            color: #1976d2;
+        }        
+        border-color: #1976d2;
+    }
+}

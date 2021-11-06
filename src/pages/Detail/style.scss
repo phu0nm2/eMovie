@@ -1,0 +1,191 @@
+.detail {
+    position: relative;
+    padding-bottom: 80px;
+    padding-top: 160px;
+
+    .css-1vc6k3q {
+        margin-top: 30px;
+    }
+
+    &__bg {
+        position: absolute;
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 450px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            top: 0;
+            left: 0;
+            right: 0;
+            display: block;
+            z-index: 1;
+            background: linear-gradient(180deg, rgba(19, 23, 32, 0.5) 0%, #131720 100%);
+            pointer-events: none;
+        }
+    }
+
+    &__container {
+        position: relative;
+        color: #fff;
+
+        padding: 0 15px;
+        margin: 0 auto;
+        z-index: 2;
+
+        .trailerBtn {
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            text-decoration: none;
+            background-color: transparent;
+            transition: 0.4s all;
+
+            &:hover {
+                color: #2f80ed;
+
+                svg {
+                    stroke: #2f80ed;
+                }
+            }
+
+            svg {
+                display: block;
+                stroke: #fff;
+                width: 46px;
+                height: auto;
+                margin-right: 15px;
+                transition: stroke 0.5s;
+            }
+        }
+
+        .article__content {
+            position: relative;
+
+            h2 {
+                font-size: 36px;
+                margin-top: 0;
+                color: #fff;
+            }
+
+            ul.list {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                flex-wrap: wrap;
+
+                width: 100%;
+                margin-bottom: 30px;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    align-items: center;
+                    position: relative;
+
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #e0e0e0;
+                    padding: 0 20px;
+
+                    &::before {
+                        position: absolute;
+                        display: block;
+                        content: "";
+                        left: -2px;
+                        top: 50%;
+
+                        width: 4px;
+                        height: 4px;
+                        border-radius: 50%;
+                        background-color: #2f80ed;
+                        margin-top: -3px;
+                    }
+                }
+            }
+
+            p {
+                margin-bottom: 0;
+                display: block;
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                color: #e0e0e0;
+            }
+        }
+    }
+
+    .order__btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin: 15px auto;
+        width: 100%;
+        height: 50px;
+        border-radius: 16px;
+        background-color: #2f80ed;
+        transition: all 0.3s;
+        text-decoration: none;
+
+        button {
+            text-transform: uppercase;
+            font-size: 14px;
+            color: #e0e0e0;
+            font-weight: bold;
+        }
+
+        &:hover {
+            background-color: #fff;
+
+            button {
+                color: #151f30;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .detail__container {
+        max-width: 540px;
+    }
+
+    .order__btn {
+        max-width: 180px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .detail__container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .detail__container {
+        max-width: 960px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .detail__container {
+        max-width: 1330px;
+    }
+}

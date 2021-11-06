@@ -1,0 +1,16 @@
+.seat {
+  //
+
+  &-btn {
+    width: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  &-btn-disabled {
+    &:hover {
+      cursor: not-allowed;
+    }
+  }
+}
